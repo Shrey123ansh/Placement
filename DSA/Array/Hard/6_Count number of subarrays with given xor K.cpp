@@ -50,7 +50,10 @@ int subarraysWithXorK(vector<int> a, int k)
     return cnt;
 }
 
-int subarraysWithXorK(vector<int> a, int k)
+https : // www.youtube.com/watch?v=eZr-6p0B7ME
+
+        int
+        subarraysWithXorK(vector<int> a, int k)
 {
     int n = a.size(); // size of the given array.
     int xr = 0;
