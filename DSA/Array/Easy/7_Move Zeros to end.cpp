@@ -9,6 +9,7 @@ void moveZeroes(vector<int> &nums)
             i++;
         }
     }
+    
     for (int j = i; j < nums.size(); j++)
     {
         nums[j] = 0;
