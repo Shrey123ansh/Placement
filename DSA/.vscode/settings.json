@@ -12,6 +12,8 @@
         "initializer_list": "cpp",
         "valarray": "cpp",
         "bitset": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp"
     }
 }
