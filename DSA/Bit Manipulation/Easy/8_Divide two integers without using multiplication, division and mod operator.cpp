@@ -20,8 +20,8 @@ int divide(int dividend, int divisor)
         int count = 0;
         while (n > (d << (count + 1)))
             count++;
-        n -= d << count;
-        ans += 1 << count;
+        n = n - d << count;
+        ans = ans + 1 << count;
     }
 
     // Handle overflow case
