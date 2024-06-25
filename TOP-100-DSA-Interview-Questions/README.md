@@ -144,7 +144,7 @@
 
 ### Thanks for Reading
 
-<img src="/assets/images/save.png" width="600" height="200">
+<img src="assets/images/save.png" width="600" height="200">
 
 ---
 

@@ -30,7 +30,7 @@ In C++, the Standard Template Library (STL) provides a set of programming tools 
 
 ---
 
-<img src="/assets/images/CPPSTL.png" width="400" height="200">
+<img src="assets/images/CPPSTL.png" width="400" height="200">
 
 ---
 
@@ -1428,7 +1428,7 @@ int main() {
 
 ### Thanks for Reading
 
-<img src="/assets/images/save.png" width="600" height="200">
+<img src="assets/images/save.png" width="600" height="200">
 
 ---
 
