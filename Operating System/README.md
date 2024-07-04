@@ -4,14 +4,6 @@ Here we have last minute revision notes of Operating System. These questions wil
 
 ---
 
-###
-
-#### Join us for all the latest offcampus job updates, webinar, hackathons, resume review and a lot more :heart::heart:
-
-###
-
----
-
 ## Most Asked Operating System Interview Questions
 
 ---
