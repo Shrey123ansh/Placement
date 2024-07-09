@@ -1,59 +1,24 @@
-class MyQueue
-{
-    stack<int> s1;
-    stack<int> s2;
+class Stack {
+  queue < int > q;
+  public:
+    void Push(int x) {
+      int s = q.size();
+      q.push(x);
+      for (int i = 0; i < s; i++) {
 
-public:
-    MyQueue()
-    {
+        q.push(q.front());
+        q.pop();
+      }
     }
-
-    void push(int x)
-    {
-        s1.push(x);
-    }
-
-    int pop()
-    {
-        int temp;
-        while (!s1.empty())
-        {
-            temp = s1.top();
-            s2.push(temp);
-            s1.pop();
-        }
-        s2.pop();
-        int last = temp;
-        while (!s2.empty())
-        {
-            temp = s2.top();
-            s2.pop();
-            s1.push(temp);
-        }
-        return last;
-    }
-
-    int peek()
-    {
-        int temp;
-        while (!s1.empty())
-        {
-            temp = s1.top();
-            s2.push(temp);
-            s1.pop();
-        }
-        int last = temp;
-        while (!s2.empty())
-        {
-            temp = s2.top();
-            s2.pop();
-            s1.push(temp);
-        }
-        return last;
-    }
-
-    bool empty()
-    {
-        return s1.empty();
-    }
+  int Pop() {
+    int n = q.front();
+    q.pop();
+    return n;
+  }
+  int Top() {
+    return q.front();
+  }
+  int Size() {
+    return q.size();
+  }
 };
