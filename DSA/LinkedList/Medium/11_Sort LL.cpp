@@ -11,7 +11,7 @@ ListNode *sortList(ListNode *head)
     {
         temp = slow;
         slow = slow->next;
-        fast = fast->next;
+        fast = fast->next->next;
     }
     temp->next = NULL;
 
