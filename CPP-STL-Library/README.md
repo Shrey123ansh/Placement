@@ -360,7 +360,7 @@ _Note: Similar syntax for `char`, `long long int`, `float`, `double`, `long doub
 priority_queue< data_type > priority_queue_name;
 ```
 
-### Max - Priority Queue
+### Min - Priority Queue
 
 ```cpp
 priority_queue< data_type, vector< data_type >, greater< data_type > > priority_queue_name;
