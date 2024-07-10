@@ -1,4 +1,12 @@
-long long int fun(string s, int k)
+Input: S = "aba", K = 2
+Output:3
+Explanation:The substrings are: "ab", "ba" and "aba".
+    
+Input: S = "abaaca", K = 1
+Output: 7
+Explanation: The substrings are: "a", "b", "a", "aa", "a", "c", "a". 
+    
+    long long int fun(string s, int k)
 {
     long long int a[26] = {0};
     long long int n = s.size();
