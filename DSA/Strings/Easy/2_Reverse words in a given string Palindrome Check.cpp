@@ -1,3 +1,5 @@
+// Input: s = "the sky is blue"
+// Output: "blue is sky the"
 string reverseWords(string s)
 {
     int start = 0, end = s.length() - 1;
