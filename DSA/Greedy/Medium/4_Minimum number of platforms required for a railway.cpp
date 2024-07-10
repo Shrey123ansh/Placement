@@ -1,12 +1,11 @@
-Example 1:
-
-Input: nums = [2,3,1,1,4]
-Output: 2
-Explanation: The minimum number of jumps to reach the last index is 2. Jump 1 step from index 0 to 1, then 3 steps to the last index.
-Example 2:
-
-Input: nums = [2,3,0,1,4]
-Output: 2
+Input: n = 6, arr[] = {0900, 0940, 0950, 1100, 1500, 1800}, 
+            dep[] = {0910, 1200, 1120, 1130, 1900, 2000}
+Output: 3
+Explanation: There are three trains during the time 0940 to 1200. So we need minimum 3 platforms.
+Input: n = 3, arr[] = {0900, 1235, 1100}, 
+            dep[] = {1000, 1240, 1200}
+Output: 1
+Explanation: All train times are mutually exlusive. So we need only one platform
     
     int findPlatform(int arr[], int dep[], int n)
 {
