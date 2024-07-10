@@ -1,5 +1,19 @@
 // EXPLANATION
 // https : // leetcode.com/problems/valid-parenthesis-string/solutions/4988353/best-explanation-two-stacks-c-0ms-runtime/
+
+Example 1:
+
+Input: s = "()"
+Output: true
+Example 2:
+
+Input: s = "(*)"
+Output: true
+Example 3:
+
+Input: s = "(*))"
+Output: true
+    
 bool checkValidString(string s)
 {
     int n = s.length();
