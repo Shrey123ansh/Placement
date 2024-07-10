@@ -1,3 +1,15 @@
+// Example 1:
+
+// Input: s = "egg", t = "add"
+// Output: true
+// Example 2:
+
+// Input: s = "foo", t = "bar"
+// Output: false
+// Example 3:
+
+// Input: s = "paper", t = "title"
+// Output: true
 bool isIsomorphic(string s, string t)
 {
     vector<int> indexS(200, 0); // Stores index of characters in string s
