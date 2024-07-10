@@ -1,4 +1,13 @@
-int beautySum(string s)
+// Example 1:
+// Input: s = "aabcb"
+// Output: 5
+// Explanation: The substrings with non-zero beauty are ["aab","aabc","aabcb","abcb","bcb"], each with beauty equal to 1.
+    
+// Example 2:
+// Input: s = "aabcbaa"
+// Output: 17
+    
+    int beautySum(string s)
 {
     int sum = 0; //  to store ans;
     int n = s.length();
