@@ -1,3 +1,11 @@
+// Example 1:
+
+// Input: s = "abcde", goal = "cdeab"
+// Output: true
+// Example 2:
+
+// Input: s = "abcde", goal = "abced"
+// Output: false
 bool rotateString(string s, string goal)
 {
     if (s.size() != goal.size())
