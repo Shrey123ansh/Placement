@@ -4,7 +4,8 @@ vector<long long int> twoOddNum(long long int Arr[], long long int N)
     int xo = 0, a = 0, b = 0;
     for (int i = 0; i < N; i++)
         xo ^= Arr[i];
-    xo &= -xo;
+
+    xo &= -xo; // Right most bit
     for (int i = 0; i < N; i++)
     {
         if (Arr[i] & xo)
