@@ -1,3 +1,5 @@
+https://drive.google.com/file/d/1J-Z5i4RH7LA7jfI4eylH9SrnhNmwLe1I/view?usp=sharing
+
 # DBMS Notes - Last Minute Revision :white_check_mark:
 
 Here we have last minute revision notes of DBMS. These questions will familiarize you with the most important DBMS concepts and help you ace your job interviews :raised_hands:
