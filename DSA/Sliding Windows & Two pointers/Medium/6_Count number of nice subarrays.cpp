@@ -8,10 +8,7 @@ Example 2:
 Input: nums = [2,4,6], k = 1
 Output: 0
 Explanation: There are no odd numbers in the array.
-Example 3:
 
-Input: nums = [2,2,2,1,2,2,1,2,2,2], k = 2
-Output: 16
     
 int subarray(vector<int> &nums, int k)
 {
