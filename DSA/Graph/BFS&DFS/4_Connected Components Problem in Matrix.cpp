@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/problems/number-of-provinces/1
+
 int findCircleNum(vector<vector<int>> &isConnected)
 {
     int n = isConnected.size();

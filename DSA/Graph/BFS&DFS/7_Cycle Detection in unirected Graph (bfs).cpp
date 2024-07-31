@@ -1,3 +1,5 @@
+// https : // www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+
 bool detect(int src, vector<int> adj[], int vis[])
 {
     vis[src] = 1;

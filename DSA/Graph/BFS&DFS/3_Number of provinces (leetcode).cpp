@@ -1,3 +1,5 @@
+// https : // takeuforward.org/data-structure/number-of-provinces/
+
 int findCircleNum(vector<vector<int>> &isConnected)
 {
     int n = isConnected.size();

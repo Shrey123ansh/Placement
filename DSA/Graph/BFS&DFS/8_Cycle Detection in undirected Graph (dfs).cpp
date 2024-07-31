@@ -1,3 +1,5 @@
+// https : // www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+
 bool dfs(int node, int parent, int vis[], vector<int> adj[])
 {
     vis[node] = 1;

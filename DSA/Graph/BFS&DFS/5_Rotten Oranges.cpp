@@ -1,3 +1,5 @@
+// https : // takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/
+
 int orangesRotting(vector<vector<int>> &grid)
 {
     if (grid.empty())
