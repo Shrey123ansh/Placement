@@ -4,7 +4,8 @@ Explanation: We can pick one fruit from all three trees. Please note that the ty
 Input: arr[] = [3, 1, 2, 2, 2, 2]
 Output: 5
 Explanation: It's optimal to pick from the last 5 trees. Please note that we do not pick the first basket as we would have to stop at thrid tree which would result in only 2 fruits collected.
-    int totalFruits(int N, vector<int> &fruits)
+   
+int totalFruits(int N, vector<int> &fruits)
 {
     int maxlen = 0;
     int l = 0, r = 0;
