@@ -1,4 +1,4 @@
-INTERVIEWBIT-https://www.interviewbit.com/networking-interview-questions/
+INTERVIEWBIT- https://www.interviewbit.com/networking-interview-questions/
 
 # Computer Networks Notes - Last Minute Revision :white_check_mark:
 
