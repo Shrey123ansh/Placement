@@ -1,4 +1,5 @@
-https://drive.google.com/file/d/1J-Z5i4RH7LA7jfI4eylH9SrnhNmwLe1I/view?usp=sharing
+ASHUTOSH- https://drive.google.com/file/d/1J-Z5i4RH7LA7jfI4eylH9SrnhNmwLe1I/view?usp=sharing
+INTERVIEWBIT- https://www.interviewbit.com/dbms-interview-questions/
 
 # DBMS Notes - Last Minute Revision :white_check_mark:
 
